@@ -1,0 +1,21 @@
+{
+  "name": "grace-assistant",
+  "version": "1.0.0",
+  "description": "Minimal WhatsApp bot with pairing code authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sparks-th",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "@hapi/boom": "latest",
+    "node-cache": "latest",
+    "pino": "latest",
+    "chalk": "^4.1.2",
+    "figlet": "latest",
+    "libphonenumber-js": "latest",
+    "archiver": "latest"
+  }
+}

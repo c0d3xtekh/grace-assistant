@@ -1,0 +1,18 @@
+# Add this line
+gitconfig.js
+
+# Already existing
+config.js
+.env
+node_modules/
+session/
+secret/
+temp/
+.cache/
+.npm/
+logs/
+*.log
+.pm2/
+*.zip
+contacts/
+.git-credentials
