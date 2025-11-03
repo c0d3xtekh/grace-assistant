@@ -9,13 +9,15 @@
   "author": "Sparks-th",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "latest",
     "@hapi/boom": "latest",
-    "node-cache": "latest",
-    "pino": "latest",
+    "@whiskeysockets/baileys": "latest",
+    "archiver": "latest",
     "chalk": "^4.1.2",
     "figlet": "latest",
     "libphonenumber-js": "latest",
-    "archiver": "latest"
+    "node-cache": "latest",
+    "pino": "latest",
+    "pm2": "^6.0.13",
+    "ruhend-scraper": "^9.0.8"
   }
 }

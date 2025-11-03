@@ -16,3 +16,20 @@ logs/
 *.zip
 contacts/
 .git-credentials
+# Node modules
+# Session data
+# Temporary files
+# Secrets
+# Cache
+# Configuration (sensitive)
+# PM2 logs
+# PM2 files
+ecosystem.config.js
+# Environment
+.env.local
+# OS
+.DS_Store
+Thumbs.db
+# Backups
+grace-backup-*.zip
+# Contacts (optional)
