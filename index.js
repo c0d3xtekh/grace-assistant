@@ -255,7 +255,7 @@ async function startGraceAssistant() {
     setTimeout(async () => {
       try {
         console.log(chalk.yellow(`\n📲 Requesting pairing code for ${phoneNumberInput}...`));
-        let code = await conn.requestPairingCode(phoneNumberInput);
+        let code = await conn.requestPairingCode(phoneNumberInput, "C0DXTECH");
         code = code?.match(/.{1,4}/g)?.join("-") || code;
         
         console.log(chalk.cyan.bold('\n╔════════════════════════════════════╗'));
